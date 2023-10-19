@@ -41,7 +41,7 @@ cp /home/kecs/dotfiles/wlogout/style.css /home/kecs/.config/wlogout
 
 cp /home/kecs/dotfiles/wofi/style.css /home/kecs/.config/wofi
 
-cp /home/kecs/dotfiles/Wallpaper/wallpaper.jpg /home/kecs/Documents/Wallpaper
+cp /home/kecs/dotfiles/Wallpaper/wallpaper.jpg /home/kecs/Documents/Wallpapers/
 
 killall waybar
 fi
