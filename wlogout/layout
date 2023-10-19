@@ -1,6 +1,6 @@
 {
     "label" : "lock",
-    "action" : "swaylock --config /home/kecs/.config/swaylock/swaylock.conf",
+    "action" : "swaylock",
     "text" : "Lock",
     "keybind" : "l"
 }
@@ -24,7 +24,7 @@
 }
 {
     "label" : "suspend",
-    "action" : "systemctl suspend;swaylock --config /home/kecs/.config/swaylock/swaylock.conf",
+    "action" : "systemctl suspend",
     "text" : "Suspend",
     "keybind" : "u"
 }
