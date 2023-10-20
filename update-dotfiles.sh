@@ -1,4 +1,5 @@
 #!/bin/sh
+echo "push -> Local to Repository, pull -> Repository to Local";
 if test "$1" = "push"
 then 
 echo "Updating Files into the Repository";
