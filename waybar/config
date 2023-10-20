@@ -2,7 +2,7 @@
 	"layer": "top",
 	"modules-left": ["hyprland/workspaces", "sway/mode"],
 	"modules-center": [],
-	"modules-right": ["network", "pulseaudio", "temperature", "cpu", "memory", "clock"],
+	"modules-right": ["network", "pulseaudio", "battery", "cpu", "memory", "clock"],
 	"pulseaudio": {
 		"tooltip": false,
 		"scroll-step": 5,
@@ -23,5 +23,20 @@
 	"memory": {
 		"tooltip": false,
 		"format": " {}%"
-	}
+	},
+	"battery": {
+        "states": {
+            // "good": 95,
+            "warning": 30,
+            "critical": 15
+        },
+        "format": "{capacity}% {icon}",
+        "format-charging": "{capacity}% ",
+        "format-plugged": "{capacity}% ",
+        "format-alt": "{time} {icon}",
+        "format-icons": ["", "", "", "", ""]
+   	 },
+   	"battery#bat2": {
+   	     "bat": "BAT2"
+   	},
 }
