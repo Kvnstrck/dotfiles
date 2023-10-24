@@ -1,6 +1,5 @@
 #!/bin/sh
-echo "push -> Local to Repository, pull -> Repository to Local";
-if test "$1" = "push"
+if test "$1" = "fromLocal"
 then 
 echo "Updating Files into the Repository";
 
@@ -23,7 +22,7 @@ cp /home/kecs/.config/wofi/style.css /home/kecs/dotfiles/wofi
 cp /home/kecs/Documents/Wallpapers/wallpaper.jpg /home/kecs/dotfiles/Wallpaper/
 fi
 
-if test "$1" = "pull"
+if test "$1" = "fromRepo"
 then 
 echo "Updating Files from the Repository";
 cp /home/kecs/dotfiles/hypr/hyprland.conf /home/kecs/.config/hypr/
