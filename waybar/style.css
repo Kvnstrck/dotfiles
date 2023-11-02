@@ -17,6 +17,8 @@
 }
 
 window#waybar {
+	background: #262626;/*262626*/
+	border-radius: 5px; 
 	background: transparent;
 }
 
