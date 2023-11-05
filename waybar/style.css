@@ -54,6 +54,7 @@ window#waybar.PCSX2 #window {
 	margin-bottom: 0;
 	border-radius: 26px;
 	background: #282a36;
+	background: #004080;
 	transition: none;
 }
 
@@ -65,12 +66,12 @@ window#waybar.PCSX2 #window {
 }
 
 #workspaces button.focused {
-	color: #9aedfe;
+	color:#9aedfe;
 }
 #workspaces button.active{
 	margin-bottom: 0;
 	border-radius: 26px;
-	background: #3d3d3d;
+	background: #0066cc;
 	transition: none;
 }
 

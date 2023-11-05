@@ -8,12 +8,13 @@
 		"scroll-step": 5,
 		"format": "{icon} {volume}%",
 		"format-icons": {
-			"default": ["", "", ""]
-		}
+			"default": ["", ""]
+		},
+		"format-muted":" {volume}%"
 	},
 	"network": {
 		"tooltip": false,
-		"format-wifi": " {essid} {ipaddr}",
+		"format-wifi": " {essid}",//{ipaddr}
 		"format-ethernet": " {ipaddr}"
 	},
 	"cpu": {
