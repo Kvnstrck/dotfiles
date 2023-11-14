@@ -112,6 +112,9 @@ window#waybar.PCSX2 #window {
 	color: #4d4d4d;
 	background: #bd93f9;
 }
+#network.disconnected {
+	background: #ff6e67;
+}
 
 #pulseaudio {
 	margin-top: 8px;

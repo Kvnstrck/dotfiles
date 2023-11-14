@@ -15,7 +15,8 @@
 	"network": {
 		"tooltip": false,
 		"format-wifi": " {essid}",//{ipaddr}
-		"format-ethernet": " {ipaddr}"
+		"format-ethernet": " {ipaddr}",
+		"format-disconnected": " Disconnected"
 	},
 	"cpu": {
 		"tooltip": false,
