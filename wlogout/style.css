@@ -6,7 +6,7 @@ window {
 }
 button {
     color: #FFFFFF;
-	background-color: transparent;/*1E1E1E*/
+	background-color: rgba(0,0,0,.5);/*1E1E1E*/
 	border-style: solid;
 	border-width: 2px;
 	background-repeat: no-repeat;
