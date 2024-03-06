@@ -29,17 +29,17 @@ cp /home/kecs/dotfiles/hypr/hyprland.conf /home/kecs/.config/hypr/
 
 cp /home/kecs/dotfiles/alacritty/alacritty.yml /home/kecs/.config/alacritty
 
-cp /home/kecs/dotfiles/swaylock/swaylock.conf /home/kecs/.config/swaylock
+cp /home/kecs/dotfiles/swaylock/swaylock.conf /home/kecs/.config/swaylock/
 
 cp /home/kecs/dotfiles/waybar/config /home/kecs/.config/waybar/
 
 cp /home/kecs/dotfiles/waybar/style.css /home/kecs/.config/waybar/
 
-cp /home/kecs/dotfiles/wlogout/layout /home/kecs/.config/wlogout 
+cp /home/kecs/dotfiles/wlogout/layout /home/kecs/.config/wlogout/
 
-cp /home/kecs/dotfiles/wlogout/style.css /home/kecs/.config/wlogout
+cp /home/kecs/dotfiles/wlogout/style.css /home/kecs/.config/wlogout/
 
-cp /home/kecs/dotfiles/wofi/style.css /home/kecs/.config/wofi
+cp /home/kecs/dotfiles/wofi/style.css /home/kecs/.config/wofi/
 
 cp /home/kecs/dotfiles/Wallpaper/wallpaper.jpg /home/kecs/Documents/Wallpapers/
 
